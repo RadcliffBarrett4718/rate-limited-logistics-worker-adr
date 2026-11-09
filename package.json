@@ -1,0 +1,19 @@
+{
+  "name": "rate-limited-logistics-worker-adr",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/shipment_worker.test.ts",
+    "demo": "tsx src/demo_route.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.7.4"
+  }
+}
